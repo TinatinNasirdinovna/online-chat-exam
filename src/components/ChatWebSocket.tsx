@@ -8,9 +8,7 @@ interface IChatWebSocket {
   photo: string;
   message: string;
 }
-  // <h1>{session?.user?.name}</h1>
-  // <img width={50} height={50} src={session?.user?.image || ''} alt="avatar" />
-  // <button onClick={() => signOut()}>Logout</button>
+
 const ChatWebSocket = ({userInfo}):any => {
   console.log( "userInfo",userInfo?.user?.image);
   
