@@ -3,6 +3,7 @@ import { FaRocketchat } from "react-icons/fa";
 import s from "./ChatLists.module.scss";
 import { signOut } from "next-auth/react";
 import { FiLogOut } from "react-icons/fi";
+import Image from "next/image";
 const ChatLists = () => {
   return (
     <div className={s.chat}>
@@ -13,7 +14,7 @@ const ChatLists = () => {
       </div>
       <div className={s.group}>
         <div className={s.groupImg}>
-          <img
+          <Image
             src="https://w7.pngwing.com/pngs/635/472/png-transparent-teamwork-logo-team-work-group-of-five-people-illustration-hand-team-happy-birthday-vector-images-thumbnail.png"
             alt="team-img"
           />

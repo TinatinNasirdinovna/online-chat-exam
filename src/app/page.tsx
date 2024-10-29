@@ -1,6 +1,6 @@
 "use client"
 import ChatWebSocket from '@/components/ChatWebSocket';
-import { signIn, signOut, useSession } from 'next-auth/react';
+import { signIn, useSession } from 'next-auth/react';
 import React from 'react';
 
 const page = () => {
